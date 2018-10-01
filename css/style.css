@@ -1548,6 +1548,9 @@ input:focus, textarea:focus, select:focus, button:focus {
     right: 0;
     margin: 0px auto;
 }
+.prt_home_wrapper {
+    background-position: inherit;
+}
 }
 @media (min-width: 620px) and (max-width: 700px) {
 .prt_services_slider_imgs {
