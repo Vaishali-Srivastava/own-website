@@ -274,6 +274,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
     background-size: cover;
+  background-position: center;
 }
 .prt_logo_wrapper img{
     position: fixed;
@@ -314,7 +315,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_menu_wrapper a{
 	position:absolute;
 	text-transform:uppercase;
-	color:#202020;
+	color:#9258e4;
 	font-size:18px;
 	margin:0px auto;
 	z-index:1;
@@ -683,6 +684,10 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_about_experience_info p{
 	margin:0px;
 }
+.prt_about_experience_info ul{
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
 .prt_profile_info{
 	display:inline-block;
 	width:100%;
@@ -863,6 +868,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+  text-shadow: 0 0 18px rgba(0,0,0,1);
 }
 .prt_contact_details_box:hover{
 	-webkit-transition: all 0.3s;
@@ -879,7 +885,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_contact_details_box:after{
 	content:"";
 	position:absolute;
-	background-color:rgba(0, 0, 0, 0.85);
+	background-color:rgba(0, 0, 0, 0.72);
 	top:0px;
 	left:0px;
 	bottom:0px;
@@ -917,7 +923,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_contact_details_box p a:hover{
-	color:#5622a0;
+	color:#9668d7;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -1138,7 +1144,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_counter_box p{
     font-size: 18px;
     margin-left: 80px;
-    color: #5622a0;
+    color: #a372e8;
 }
 .circles-text {
 	font-size: 36px !important;
