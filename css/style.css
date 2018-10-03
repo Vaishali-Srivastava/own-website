@@ -1257,10 +1257,11 @@ input:focus, textarea:focus, select:focus, button:focus {
 	width:100%;
 }
 .prt_portfolio_box a{
-	display:inline-block;
+	display:flex;
 	width:100%;
 	margin-bottom:30px;
 	text-align:center;
+  border: 1px solid #e8e8e8;
 }
 .prt_portfolio_img{
 	display:inline-block;
@@ -1499,58 +1500,84 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 }
 @media (max-width: 767px) {
-.prt_home_wrapper h1 {
-    font-size: 90px;
-	margin:0px;
-	text-align: center;
-}
-.prt_profile_slider {
-    padding-top: 0px;
-    margin-bottom: 50px;
-}
-.prt_about_learnbox_right:after {
-    top: 0%;
-    left: 0%;
-    margin-top: 0
-}
-.prt_about_learnbox_left:after {
-    top: 0%;
-    right: 0%;
-    margin-top: 0
-}
-.prt_about_learnsection:after{
-	display:none;
-}
-.prt_about_learnbox_left, .prt_about_learnbox_right {
-    border-bottom: 1px solid #202020;
-    padding-bottom: 30px;
-}
-.prt_footer_wrapper p {
-    width: 100%;
-    text-align: center;
-    margin: 0px 0px 20px 0px;
-}
-.prt_footer_wrapper ul {
-    width: 100%;
-    text-align: center;
-}
-.prt_services_slider_wrapper {
-    height: 1020px;
-    position: relative;
-}
-.prt_services_slider_imgs {
-    margin-left: 150px;
-}
-.prt_services_slider_box {
-    position: absolute;
-    top: 450px;
-    left: 0;
-    right: 0;
-    margin: 0px auto;
-}
-.prt_home_wrapper {
-    background-position: inherit;
-}
+  .prt_home_wrapper h1 {
+      font-size: 90px;
+  	margin:0px;
+  	text-align: center;
+  }
+  .prt_profile_slider {
+      padding-top: 0px;
+      margin-bottom: 50px;
+  }
+  .prt_about_learnbox_right:after {
+      top: 0%;
+      left: 0%;
+      margin-top: 0
+  }
+  .prt_about_learnbox_left:after {
+      top: 0%;
+      right: 0%;
+      margin-top: 0
+  }
+  .prt_about_learnsection:after{
+  	display:none;
+  }
+  .prt_about_learnbox_left, .prt_about_learnbox_right {
+      border-bottom: 1px solid #202020;
+      padding-bottom: 30px;
+  }
+  .prt_footer_wrapper p {
+      width: 100%;
+      text-align: center;
+      margin: 0px 0px 20px 0px;
+  }
+  .prt_footer_wrapper ul {
+      width: 100%;
+      text-align: center;
+  }
+  .prt_services_slider_wrapper {
+      height: 1020px;
+      position: relative;
+  }
+  .prt_services_slider_imgs {
+      margin-left: 150px;
+  }
+  .prt_services_slider_box {
+      position: absolute;
+      top: 450px;
+      left: 0;
+      right: 0;
+      margin: 0px auto;
+  }
+  .prt_home_wrapper {
+      background-position: inherit;
+  }
+  .prt_menu_wrapper a {
+    color: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    background: rgba(146, 86, 228, 0.62);
+    padding: 8px 10px;
+    border-radius: 6px;
+    min-width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .prt_menu_wrapper a.prt_left {
+      top: 50%;
+      left: -60px;
+      transform: rotateZ(-90deg);
+      margin-top: 10px;
+  }
+  .prt_menu_wrapper a.prt_right {
+      top: 50%;
+      right: -60px;
+      transform: rotateZ(90deg);
+      margin-top: 10px;
+  }
+  .prt_about_learnbox_year h1 {
+      font-size: 40px;
+  }
 }
 @media (min-width: 620px) and (max-width: 700px) {
 .prt_services_slider_imgs {

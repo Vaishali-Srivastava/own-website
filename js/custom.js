@@ -89,10 +89,10 @@ Assigned to: ThemeForest
     		});
     		var circle4 = Circles.create({
     			id: 'circles-4',
-    			value: 70,
+    			value: 40,
     			radius: 100,
-    			number: 70,
-    			text: '70%',
+    			number: 40,
+    			text: '40%',
     			width: 8,
     			colors: ["#202020", "#1d8bbe"],
     			duration: 900
